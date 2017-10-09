@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+    </h:head>
+    <h:body>
+        <h1>Hello World PrimeFaces</h1>
+
+        <h:form>
+            <p:autoComplete value="#{editor.t_val}"/>
+            <p:editor value="#{editor.value}" />
+        </h:form>
+
+        <h:form>
+            <h:commandLink action="#{actor.listSetup}" value="Show All Actor Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{address.listSetup}" value="Show All Address Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{city.listSetup}" value="Show All City Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{country.listSetup}" value="Show All Country Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{customer.listSetup}" value="Show All Customer Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{film.listSetup}" value="Show All Film Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{filmActor.listSetup}" value="Show All FilmActor Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{inventory.listSetup}" value="Show All Inventory Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{language.listSetup}" value="Show All Language Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{payment.listSetup}" value="Show All Payment Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{rental.listSetup}" value="Show All Rental Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{staff.listSetup}" value="Show All Staff Items"/>
+        </h:form>
+        <h:form>
+            <h:commandLink action="#{store.listSetup}" value="Show All Store Items"/>
+        </h:form>
+    </h:body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
